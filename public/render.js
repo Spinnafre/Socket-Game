@@ -21,7 +21,7 @@ export default function render(
 
   for (const playerID in game.state.players) {
     const player = game.state.players[playerID];
-    context.fillStyle = "black";
+    context.fillStyle = "red";
     context.fillRect(player.playerX, player.playerY, 1, 1);
   }
   //  Diferenciar o meu player
